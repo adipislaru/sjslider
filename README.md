@@ -17,6 +17,7 @@ You can fully understand how it works from the example file!*
 -   *left_Selector and right_Selector* - the selector for the arrows( next-prev slide )
 -   *fadeIn_Time and fadeOut_Time* - times for the fadeIn / fadeOut effects
 -   *timer_Interval* - just edit the left part of the addition - the interval for automatically slide
+
 Don't want to automatically slide ? Just set **Automated** to 0 in the main **javascript** file !
 # Usage
 
