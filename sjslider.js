@@ -4,10 +4,12 @@ var canSwitch = 		1;
 
 var current_Class = 	"activ";
 
-var current_Selector = 	".activ";
+var current_Selector = 	"." + current_Class;
+
 var left_Selector = 	".arrow_left";
 var right_Selector = 	".arrow_right";
 var slide_Selector = 	".slide";
+
 var fadeIn_Time = 		500;
 var fadeOut_Time =		500;
 
