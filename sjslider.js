@@ -13,6 +13,8 @@ var slide_Selector = 	".slide";
 var fadeIn_Time = 		500;
 var fadeOut_Time =		500;
 
+var Automated = 1;
+
 $( slide_Selector ).css( "display", "none" );
 
 var _first_Slide = $( slide_Selector + ":first" );
@@ -102,8 +104,11 @@ function canSwitch_reset( )
 
 function reset_Timer( )
 {
-	clearTimeout( timer_Changer );
-	timer_Changer = setTimeout( slide_Changer, timer_Interval );
+	if( Automated )
+	{
+		clearTimeout( timer_Changer );
+		timer_Changer = setTimeout( slide_Changer, timer_Interval );
+	}
 }
 
 function slide_Changer( )
